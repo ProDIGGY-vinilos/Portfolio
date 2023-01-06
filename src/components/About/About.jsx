@@ -25,49 +25,49 @@ function About() {
           <img src="skills/html.png" alt="HTML" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/javascript.png" alt="JavaScript" />
+          <img src="skills/javascript.png" alt="JavaScript" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/react.png" alt="React" />
+          <img src="skills/react.png" alt="React" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/nodejs.png" alt="Node.JS" />
+          <img src="skills/nodejs.png" alt="Node.JS" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/expressjs.png" alt="Express.JS" />
+          <img src="skills/expressjs.png" alt="Express.JS" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/mongodb.png" alt="MongoDB" />
+          <img src="skills/mongodb.png" alt="MongoDB" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/mySql.png" alt="MySQL" />
+          <img src="skills/mySql.png" alt="MySQL" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/git.png" alt="Git" />
+          <img src="skills/git.png" alt="Git" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/npm.png" alt="NPM" />
+          <img src="skills/npm.png" alt="NPM" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/restapi.png" alt="REST API" />
+          <img src="skills/restapi.png" alt="REST API" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/firebase.png" alt="Firebase" />
+          <img src="skills/firebase.png" alt="Firebase" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/jest.png" alt="Jest" />
+          <img src="skills/jest.png" alt="Jest" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/postman.png" alt="Postman" />
+          <img src="skills/postman.png" alt="Postman" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/figma.png" alt="Figma" />
+          <img src="skills/figma.png" alt="Figma" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/photoshop.png" alt="Photoshop" />
+          <img src="skills/photoshop.png" alt="Photoshop" />
         </div>
         <div className={styles.skillsItem}>
-          <img src="assets/images/skills/illustrator.png" alt="Illustrator" />
+          <img src="skills/illustrator.png" alt="Illustrator" />
         </div>
       </div>
     </section>
