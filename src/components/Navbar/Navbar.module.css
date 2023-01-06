@@ -1,0 +1,17 @@
+.container {
+    height: 10%;
+    font-size: 25px;
+    background-color: red;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.items {
+    width: 18%;
+    height: auto;
+    align-self: center;
+}
