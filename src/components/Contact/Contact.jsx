@@ -1,6 +1,7 @@
+import React from 'react'
 import { useForm } from 'react-hook-form'
 import { send } from 'emailjs-com'
-import styles from 'Components/Contact/Contact.module.css'
+import styles from 'components/Contact/Contact.module.css'
 
 function Contact() {
   const {
@@ -22,15 +23,22 @@ function Contact() {
 
   return (
     <div className={styles.container}>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
+      <p>Tienes una oferta, consulta o solo una duda? no dudes en enviarme un mensaje</p>
+
       <form onSubmit={handleSubmit(onSubmit)}>
-        <input type="text" placeholder="Name" {...register('name', { required: true })} />
-        {errors.name && <span>This field is required</span>}
-        <input type="text" name="mail" placeholder="Email" {...register('email', { required: true })} />
-        {errors.email && <span>This field is required</span>}
-        <textarea placeholder="Message" {...register('message', { required: true })} />
-        {errors.message && <span>This field is required</span>}
+        <div className={styles.formInput}>
+          <input type="text" placeholder="Name" {...register('name', { required: true })} />
+          {errors.name && <span>This field is required</span>}
+          <input type="text" name="mail" placeholder="Email" {...register('email', { required: true })} />
+          {errors.email && <span>This field is required</span>}
+        </div>
+        <div className={styles.formTextarea}>
+          <textarea placeholder="Message" {...register('message', { required: true })} />
+          {errors.message && <span>This field is required</span>}
+        </div>
         <input type="submit" />
+        <input type="reset" />
       </form>
     </div>
   )
