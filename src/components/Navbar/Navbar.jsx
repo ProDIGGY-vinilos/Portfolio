@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className={styles.container}>
       <div className={styles.logo}>
-        <img src="skills/illustrator.png" alt="logo" />
+        <img src="" alt="logo" />
       </div>
       <div className={styles.listContainer}>
         <ul className={styles.list}>

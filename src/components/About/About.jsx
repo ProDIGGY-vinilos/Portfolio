@@ -5,17 +5,19 @@ function About() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>About Me</h1>
-      <p className={styles.introduction}>
-        Hola, me llamo Cristian pero me gusta trabajar bajo el nombre de ProDIGGY, soy desarrollador Full-stack y me
-        gustaria que me conozcas un poco...
-      </p>
-      <p className={styles.resume}>
-        Tengo 25 años, actualmente vivo en Rosario, Santa Fe, Argentina, soy apasionado por la tecnologia y la
-        innovacion, siempre busco mejorar mis conocimientos y trato de aprender algo nuevo todos los dias. Me considero
-        una persona apasionada por lo que hago, me gusta trabajar en equipo y aprender de los demas, cuando algo me
-        llama la atencion soy de aprender y investigar a fondo sobre el tema para comprenderlo lo mas posible y asi
-        poder comprenderlo y disfrutarlo en su totalidad.
-      </p>
+      <div className={styles.about}>
+        <p className={styles.introduction}>
+          Hola, me llamo Cristian pero me gusta trabajar bajo el nombre de ProDIGGY, soy desarrollador Full-stack y me
+          gustaria que me conozcas un poco...
+        </p>
+        <p className={styles.resume}>
+          Tengo 25 años, actualmente vivo en Rosario, Santa Fe, Argentina, soy apasionado por la tecnologia y la
+          innovacion, siempre busco mejorar mis conocimientos y trato de aprender algo nuevo todos los dias. Me
+          considero una persona apasionada por lo que hago, me gusta trabajar en equipo y aprender de los demas, cuando
+          algo me llama la atencion soy de aprender y investigar a fondo sobre el tema para comprenderlo lo mas posible
+          y asi poder comprenderlo y disfrutarlo en su totalidad.
+        </p>
+      </div>
       <h2 className={styles.skillsTitle}>Habilidades</h2>
       <div className={styles.skills}>
         <div className={styles.skillsItem}>
