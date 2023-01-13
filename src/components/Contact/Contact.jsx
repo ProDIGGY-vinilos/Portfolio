@@ -23,22 +23,27 @@ function Contact() {
 
   return (
     <div className={styles.container}>
-      <h2>Contact</h2>
-      <p>Tienes una oferta, consulta o solo una duda? no dudes en enviarme un mensaje</p>
+      <h2 className={styles.title}>Contact</h2>
+      <p className={styles.simplyText}>Tienes una oferta, consulta o solo una duda? no dudes en enviarme un mensaje</p>
 
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form className={styles.generalForm} onSubmit={handleSubmit(onSubmit)}>
+        <label>Leave your name and email</label>
         <div className={styles.formInput}>
+          {/* hacer componente shared para input */}
           <input type="text" placeholder="Name" {...register('name', { required: true })} />
           {errors.name && <span>This field is required</span>}
           <input type="text" name="mail" placeholder="Email" {...register('email', { required: true })} />
           {errors.email && <span>This field is required</span>}
         </div>
         <div className={styles.formTextarea}>
+          <label>Leave your message</label>
           <textarea placeholder="Message" {...register('message', { required: true })} />
           {errors.message && <span>This field is required</span>}
         </div>
-        <input type="submit" />
-        <input type="reset" />
+        <div className={styles.formButtons}>
+          <input type="submit" />
+          <input type="reset" />
+        </div>
       </form>
     </div>
   )
