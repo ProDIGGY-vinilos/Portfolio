@@ -1,5 +1,16 @@
 .container {
     height: 100vh;
-    font-size: 25px;
     background-color: blue;
+}
+
+.name {
+    color: white;
+}
+
+.h2Tag {
+    color: goldenrod;
+}
+
+.pTag {
+    color: brown;
 }
